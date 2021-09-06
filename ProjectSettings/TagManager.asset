@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - spawn
+  - Room
+  - Spawnpoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - suelo
+  - Water
+  - UI
+  - personaje
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: boss
+    uniqueID: 1795855813
+    locked: 0
+  - name: suelo
+    uniqueID: 239319983
+    locked: 0
