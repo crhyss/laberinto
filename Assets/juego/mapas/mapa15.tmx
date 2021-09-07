@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="1" nextlayerid="4" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="1" nextlayerid="5" nextobjectid="2">
  <tileset firstgid="1" source="madera.tsx"/>
  <tileset firstgid="2" source="muros.tsx"/>
  <group id="3" name="Grupo 1">
@@ -25,6 +25,11 @@
 </chunk>
    </data>
   </layer>
+  <objectgroup id="4" name="collaider">
+   <object id="1" x="704" y="704">
+    <polygon points="0,0 0,-704 -704,-704 -704,0 -671,-33 -671,-671 -33,-671 -33,-33 -671,-33 -704,0"/>
+   </object>
+  </objectgroup>
   <layer id="2" name="Capa de patrones 2" width="10" height="10">
    <data encoding="csv">
     <chunk x="0" y="0" width="16" height="16">
