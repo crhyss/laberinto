@@ -9,17 +9,25 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
-  errors: []
-  warnings: []
+  errors:
+  - 'Missing texture asset: ../../../../OneDrive/Escritorio/sprites/muros (2).png'
+  - 'Missing texture asset: ../../../../OneDrive/Escritorio/sprites/ladrillo.png'
+  - Could not find tile 26. Make sure the tilesets were successfully imported.
+  - Could not find tile 34. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'muros (2)' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'ladrillo' is an embedded tileset. Exported tilesets are preferred.
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
   importerVersion: 23
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 2
+  numberOfObjectsImported: 4
   tilesAsObjects: 1
   sortingMode: 0
   isIsometric: 0
   customImporterClassName: 
-  internalTilesets: []
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}

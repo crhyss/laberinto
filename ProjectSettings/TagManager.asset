@@ -7,6 +7,9 @@ TagManager:
   - spawn
   - Room
   - Spawnpoint
+  - jobs
+  - mago
+  - pj
   layers:
   - Default
   - TransparentFX

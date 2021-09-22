@@ -13,6 +13,7 @@ public class ROOMSPAWN : MonoBehaviour
         template = GameObject.FindGameObjectWithTag("Room").GetComponent<roomtemplate>();
         Invoke("Spawn", 0.1f);
     }
+
     void Spawn() {
         if (spawned == false) {
 
