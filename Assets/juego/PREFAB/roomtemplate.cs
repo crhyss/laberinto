@@ -15,9 +15,9 @@ public class roomtemplate : MonoBehaviour
 
     private void Start()
     {
-        Invoke("spawnEnemigos",3f);
+        Invoke("SpawnEnemigos",3f);
     }
-    void spawnEnemigos() {
+    void SpawnEnemigos() {
         Instantiate(boss, room[room.Count - 1].transform.position,Quaternion.identity);
     }
 }

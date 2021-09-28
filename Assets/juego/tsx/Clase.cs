@@ -16,20 +16,16 @@ public class Clase : MonoBehaviour
     public Sprite spriteP;
     public SortingLayer layer;
 
-
-//    Animator anim;
 Rigidbody2D rb2d;
 Vector2 mov;
 
-// Start is called before the first frame update
 void Start()
 {
 
-        //        anim = GetComponent<Animator>();
+
         rb2d = GetComponent<Rigidbody2D>();
 }
 
-// Update is called once per frame
 void Update()
 {
     mov = new Vector2(

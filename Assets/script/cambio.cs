@@ -6,12 +6,15 @@ public class cambio : MonoBehaviour
 {
     private Clase jobs;
     public Sprite sprite;
+    public GameObject oficio;
+    public int id;
+
     void Start()
     {
  
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         jobs = GameObject.FindGameObjectWithTag("pj").GetComponent<Clase>();
@@ -19,12 +22,25 @@ public class cambio : MonoBehaviour
     void OnTriggerEnter2D(Collider2D cor) {
 
         if (cor.gameObject.tag == "pj") {
-            if (jobs.id == 0) {
-                jobs.vidaMAX = 5;
-                jobs.velocidad = 6;
-                jobs.spriteP = sprite;
-                Destroy(gameObject);
+            if (id == 0) {
+                Instantiate(oficio, jobs.transform.position,Quaternion.identity,jobs.transform);
+                clon(5, 4, 2);
             }
+            else if (id == 1)
+            {
+                Instantiate(oficio, jobs.transform.position, Quaternion.identity, jobs.transform);
+                transform.position = new Vector2(jobs.transform.position.x, jobs.transform.position.y + 0.1f);
+                clon(10,6,3);
+            }
+            Destroy(this);
         }
+
+    }
+    private void clon(float vida,float velocidad,int ataque) {
+        jobs.vidaMAX = vida;
+        jobs.velocidad = velocidad;
+        jobs.daño = ataque;
+        Destroy(this.gameObject);
+        
     }
 }

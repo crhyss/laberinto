@@ -53,16 +53,18 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\pk1.cs" />
     <Compile Include="Assets\juego\PREFAB\roomtemplate.cs" />
+    <Compile Include="Assets\script\clasemanager.cs" />
     <Compile Include="Assets\juego\PREFAB\Warp.cs" />
     <Compile Include="Assets\juego\PREFAB\destructor.cs" />
     <Compile Include="Assets\myCamera.cs" />
     <Compile Include="Assets\Aseprite2Unity\Examples\MegaDad\MegaDadScript.cs" />
     <Compile Include="Assets\juego\tsx\Clase.cs" />
+    <Compile Include="Assets\script\cambio.cs" />
     <Compile Include="Assets\juego\PREFAB\ROOMSPAWN.cs" />
     <Compile Include="Assets\juego\PREFAB\lista_rooms.cs" />
     <Compile Include="Assets\juego\tsx\personaje.cs" />
-    <Compile Include="Assets\script\cambio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Aseprite2Unity\Examples\MegaDad\readme.txt" />
